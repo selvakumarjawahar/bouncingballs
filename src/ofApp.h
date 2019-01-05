@@ -25,9 +25,10 @@ class ofApp : public ofBaseApp{
 
 private:
 	Animate _animate;
-	MyCircle _circle;
+	MyCircle _circle1,_circle2,_circle3,_circle4;
 	float _pct;
-	ofPoint _pos;
-	ofPoint _posa, _posb;
-		
+	ofPoint _pos1,_pos2,_pos3,_pos4;
+	ofPoint _posa1,_posa2,_posb1,_posb2;
+	float line;
+	ofPoint orig;
 };
