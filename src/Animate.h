@@ -4,11 +4,9 @@ class Animate
 {
 public:
 	Animate();
-	void setup(ofPoint posa, ofPoint posb);
-	ofPoint moveLinear(float pct);
+	ofPoint moveLinear(float pct,ofPoint& const posa , ofPoint& const posb);
+	ofPoint movesquared(float pct , ofPoint& const posa, ofPoint& const posb);
+
 	~Animate();
-private:
-	ofPoint _posa;
-	ofPoint _posb;
 };
 

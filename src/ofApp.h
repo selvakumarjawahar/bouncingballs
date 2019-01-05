@@ -28,5 +28,6 @@ private:
 	MyCircle _circle;
 	float _pct;
 	ofPoint _pos;
+	ofPoint _posa, _posb;
 		
 };
